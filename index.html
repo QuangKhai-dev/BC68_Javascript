@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+</head>
+
+<body>
+  <div class="container my-5">
+    <h2>Bài tập kiểm tra xem tổng 2 số lớn hơn hay nhỏ hơn 50</h2>
+    <!-- bs5-form-input  -->
+    <div class="mb-3">
+      <label for="" class="form-label">Nhập số đầu tiên</label>
+      <input type="text" class="form-control" name="" id="soThuNhat" aria-describedby="helpId"
+        placeholder="Nhập số thứ nhất" />
+    </div>
+    <div class="mb-3">
+      <label for="" class="form-label">Nhập số thứ hai</label>
+      <input type="text" class="form-control" name="" id="soThuHai" aria-describedby="helpId"
+        placeholder="Nhập số thứ hai" />
+    </div>
+    <button class="btn btn-dark">Kiểm tra kết quả</button>
+
+  </div>
+
+  <div class="container">
+    <h2>Bài tập tính số tiền lương dựa trên giờ làm</h2>
+    <div class="mb-3">
+      <label for="" class="form-label">Số lương</label>
+      <input type="text" class="form-control" name="" id="soLuong" aria-describedby="helpId"
+        placeholder="Nhập số lương" />
+    </div>
+    <div class="mb-3">
+      <label for="" class="form-label">Số giờ làm</label>
+      <input type="text" class="form-control" name="" id="soGioLam" aria-describedby="helpId"
+        placeholder="Nhập số giờ làm" />
+    </div>
+    <button class="btn btn-primary">Tính tiền lương</button>
+    <div class="bg-danger text-white p-2 rounded bg-opacity-75 mt-4" id="ketQua"></div>
+    <!-- Thực hiện tính số tiền lương dựa trên số lương và thời gian làm, nếu lớn hơn 40 công thức tính = số lương * 1.5 * số giờ, nếu giờ làm bé hơn hoặc bằng 40 thì lấy công thức = số lương * số giờ làm  -->
+    <!-- thực hiện hiển thị kết quả lên cho người dùng thông qua thẻ div bên trên vd : Số lương bạn làm được là 1,000VND  -->
+    <!-- // cấu hình lại số tiền lương hiển thị theo dạng VND : 1000 ==> 1,000 VND  -->
+  </div>
+
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+  <script src="./index.js"></script>
+</body>
+
+</html>
