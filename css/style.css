@@ -1,0 +1,17 @@
+.btnHienThiMatKhau {
+  position: absolute;
+  right: 5px;
+  top: 32px;
+}
+
+.text-color {
+  background-color: black;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}

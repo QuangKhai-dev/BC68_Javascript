@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+  <!-- FontAwesome 6.2.0 CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <h1 id="title" class="testThu"></h1>
+  <img src="" alt="" id="hinhAnh">
+
+  <div class="container">
+    <h2>Bài tập hiển thị thông tin người dùng</h2>
+    <!-- bs5-form-input  -->
+    <div class="mb-3">
+      <label for="" class="form-label">Tài khoản</label>
+      <input type="text" class="form-control" id="taiKhoan" placeholder="nhập tài khoản" />
+    </div>
+    <div class="mb-3 position-relative">
+      <label for="" class="form-label">Mật khẩu</label>
+      <input type="password" class="form-control" id="matKhau" placeholder="nhập mật khẩu" />
+      <button class="btn btnHienThiMatKhau"><i class="fa-solid fa-eye"></i></button>
+    </div>
+    <div>
+      <button class="btn btn-dark" id="btnDangNhap">Đăng nhập</button>
+    </div>
+  </div>
+
+  <!-- bài tập bật tắt đèn  -->
+  <div class="container">
+    <h2>Bài tập bật tắt bóng đèn</h2>
+    <div>
+      <button class="btn btn-danger" id="btnTatDen">Tắt</button>
+      <img id="hinhBongDen" src="./img/pic_bulboff.gif" alt="">
+      <button class="btn btn-success" id="btnBatDen">Bật</button>
+    </div>
+  </div>
+
+  <div class="container">
+    <h2>Demo về chức năng thêm xoá class của một thẻ và thực hiện light theme dark theme</h2>
+    <div>
+      <button class="btn btn-dark btn-themClass">Nhấn vào đây để thay đổi nền và màu chữ của thẻ p</button>
+      <button class="btn btn-danger btn-xoaClass">Nhấn vào đây để thay đổi thẻ p về mặc định</button>
+      <p class="huhu">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos, dolor?</p>
+    </div>
+  </div>
+
+  <!-- bài tập sử dụng toggle để ẩn hiện một class  -->
+  <div class="container">
+    <h2>Bài tập thêm hoặc xoá class dark của thẻ body</h2>
+    <button class="btn btn-dark btn_darkTheme">Bật dark theme</button>
+    <button id="taoTheHTML" class="btn btn-primary">Tạo thẻ img với hình một bông hoa</button>
+    <div class="result"></div>
+  </div>
+
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
